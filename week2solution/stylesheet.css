@@ -8,7 +8,8 @@
 			background-color: rgb(200, 170, 250);
 			border: solid white 2px;
 			padding-top: 20px;	
-			font-size: 24px
+			font-size: 24px;
+			text-align: right;
 		}
 
 		.innerDiv {
@@ -16,6 +17,7 @@
 			border-top: solid black 2px;
 			border-left: solid white 1px;
 			font-size: 15px;
+			text-align: left;
 		}
 	}
 
@@ -24,7 +26,8 @@
 			background-color: rgb(200, 170, 250);
 			border: solid white 2px;
 			padding-top: 20px;	
-			font-size: 24px
+			font-size: 24px;
+			text-align: right;
 		}
 
 		#sushiOuterDiv {
@@ -42,6 +45,7 @@
 			border-top: solid black 2px;
 			border-left: solid white 1px;
 			font-size: 15px;
+			text-align: left;
 		}
 	}
 
@@ -51,7 +55,8 @@
 			border: solid white 2px;
 			width: 33.33%;
 			padding-top: 20px;	
-			font-size: 24px
+			font-size: 24px;
+			text-align: right;
 		}
 
 
@@ -60,6 +65,7 @@
 			border-top: solid black 2px;
 			border-left: solid white 1px;
 			font-size: 15px;
+			text-align: left;
 		}
 		#sushiOuterDiv {
 			width: 33.33%
