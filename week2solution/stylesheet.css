@@ -6,25 +6,27 @@
 	@media (min-width: 450px) {
 		.outerDiv {
 			background-color: rgb(200, 170, 250);
-			border: solid white 2px;
+			border: solid black 1px;
 			padding-top: 20px;	
-			font-size: 24px
+			font-size: 24px;
+			text-align: right;
 		}
 
 		.innerDiv {
 			background-color: rgb(200, 200, 200);
-			border-top: solid black 2px;
-			border-left: solid white 1px;
+			border: solid black 1px;
 			font-size: 15px;
+			text-align: left;
 		}
 	}
 
 	@media (min-width: 750px) {
 		.outerDiv {
 			background-color: rgb(200, 170, 250);
-			border: solid white 2px;
+			border: solid black 1px;
 			padding-top: 20px;	
 			font-size: 24px
+			text-align: right;
 		}
 
 		#sushiOuterDiv {
@@ -39,27 +41,28 @@
 
 		.innerDiv {
 			background-color: rgb(200, 200, 200);
-			border-top: solid black 2px;
-			border-left: solid white 1px;
+			border: solid black 1px;
 			font-size: 15px;
+			text-align: left;
 		}
 	}
 
 	@media (min-width: 1200px) {
 		.outerDiv {
 			background-color: rgb(200, 170, 250);
-			border: solid white 2px;
+			border: solid black 1px;
 			width: 33.33%;
 			padding-top: 20px;	
 			font-size: 24px
+			text-align: right;
 		}
 
 
 		.innerDiv {
 			background-color: rgb(200, 200, 200);
-			border-top: solid black 2px;
-			border-left: solid white 1px;
+			border: solid black 1px;
 			font-size: 15px;
+			text-align: left;
 		}
 		#sushiOuterDiv {
 			width: 33.33%
