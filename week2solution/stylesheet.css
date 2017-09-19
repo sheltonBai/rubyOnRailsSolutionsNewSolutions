@@ -25,7 +25,11 @@
 			background-color: rgb(200, 170, 250);
 			border: solid black 1px;
 			padding-top: 20px;	
+<<<<<<< HEAD
 			font-size: 24px
+=======
+			font-size: 24px;
+>>>>>>> 4ee3a962514964dba132c76bc55c30d0f4ba375d
 			text-align: right;
 		}
 
@@ -53,7 +57,11 @@
 			border: solid black 1px;
 			width: 33.33%;
 			padding-top: 20px;	
+<<<<<<< HEAD
 			font-size: 24px
+=======
+			font-size: 24px;
+>>>>>>> 4ee3a962514964dba132c76bc55c30d0f4ba375d
 			text-align: right;
 		}
 

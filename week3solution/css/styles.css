@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
 	text-align: center;
 }
@@ -15,4 +16,23 @@ h2 {
 }
 #upperNav{
 	height: 50px;
+=======
+h1 {
+	text-align: center;
+}
+
+h2 {
+	color: gray;
+}
+
+.bodyDiv {
+	height: 1000px;
+	width: 90%;
+	background-color: blue;
+	border: solid black 5px;
+	margin-left: 5%;
+}
+#upperNav{
+	height: 50px;
+>>>>>>> 4ee3a962514964dba132c76bc55c30d0f4ba375d
 }
