@@ -3,82 +3,80 @@
 		box-sizing: border-box;
 	}
 
-	@media (min-width: 450px) {
-		.outerDiv {
-			background-color: rgb(200, 170, 250);
-			border: solid black 1px;
-			padding-top: 20px;	
-			font-size: 24px;
-			text-align: right;
-		}
+	
 
-		.innerDiv {
-			background-color: rgb(200, 200, 200);
-			border: solid black 1px;
-			font-size: 15px;
-			text-align: left;
-		}
+	.outerDiv {
+		background-color: rgb(200, 200, 200);
+		border: solid black 1px;
+		text-align: left;
 	}
 
-	@media (min-width: 750px) {
-		.outerDiv {
-			background-color: rgb(200, 170, 250);
-			border: solid black 1px;
-			padding-top: 20px;	
-<<<<<<< HEAD
-			font-size: 24px
-=======
-			font-size: 24px;
->>>>>>> 4ee3a962514964dba132c76bc55c30d0f4ba375d
-			text-align: right;
-		}
 
-		#sushiOuterDiv {
-			width: 100%
+	.innerDiv {
+		border-left: solid black 1px;
+		border-bottom: solid black 1px;
+		font-size: 24px;
+		text-align: center;
+		width: 25%;
+		float: right;
+		margin-left: 100%;		
+	}
+
+	#sushiInnerDiv {
+		background-color: rgb(200, 170, 250);
+	}
+	#beefInnerDiv {
+		background-color: rgb(200, 250, 170);
+	}
+	#chickenInnerDiv {
+		background-color: rgb(250, 200, 170);
+	}
+
+	@media (min-width: 450px) {
+
+		#sushiMarginDiv {
+			width: 100%;
 		}
-		#beefOuterDiv {
-			width: 50%
-		}
-		#chickenOuterDiv {
+		#beefMarginDiv {
 			width: 50%;
 		}
-
-		.innerDiv {
-			background-color: rgb(200, 200, 200);
-			border: solid black 1px;
-			font-size: 15px;
-			text-align: left;
+		#chickenMarginDiv {
+			width: 50%;
 		}
 	}
 
-	@media (min-width: 1200px) {
-		.outerDiv {
-			background-color: rgb(200, 170, 250);
-			border: solid black 1px;
+	@media (min-width: 767px) {
+
+		.marginDiv {
+		padding:20px;
+		float: left;
+		}
+
+		#sushiMarginDiv {
+			width: 100%;
+		}
+		#beefMarginDiv {
+			width: 100%;
+		}
+		#chickenMarginDiv {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 992px) {
+
+		.marginDiv {
+		padding:20px;
+		float: left;
+		}
+
+		#sushiMarginDiv {
 			width: 33.33%;
-			padding-top: 20px;	
-<<<<<<< HEAD
-			font-size: 24px
-=======
-			font-size: 24px;
->>>>>>> 4ee3a962514964dba132c76bc55c30d0f4ba375d
-			text-align: right;
 		}
-
-
-		.innerDiv {
-			background-color: rgb(200, 200, 200);
-			border: solid black 1px;
-			font-size: 15px;
-			text-align: left;
+		#beefMarginDiv {
+			width: 33.33%;
 		}
-		#sushiOuterDiv {
-			width: 33.33%
-		}
-		#beefOuterDiv {
-			width: 33.33%
-		}
-		#chickenOuterDiv {
+		#chickenMarginDiv {
 			width: 33.33%;
 		}
 	}
